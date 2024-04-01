@@ -1,3 +1,5 @@
-#!binbash
-echo Mohit Chaudhari
-echo DeepakKrishnan
+#!/bin/bash
+
+abcd=”Hello”
+echo ‘$abcd’ # Output: $abcd
+echo “$abcd” # Output: Hello
