@@ -1,0 +1,26 @@
+#!/bin/bash
+
+####################
+#Author : Mohit
+#Date : 6th Apr 2024
+#Version : v1
+#Description : This script will report AWS Usage
+####################
+
+# AWS S3 
+# AWS EC2
+# AWS Lambda
+# AWS IAM User
+
+# List s3 Buckets
+aws s3 ls
+
+# List EC2 Instances 
+aws ec2 describe-instances
+
+# List Lambda
+aws lambda list-functions
+
+# List IAM Users
+aws iam list-users
+
