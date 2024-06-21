@@ -1,0 +1,15 @@
+To create a simple calculator in python 
+
+********
+num1 = float(input("Emter number 1:"))
+num2 = float(input("Enter number 2:"))
+
+opr = input("Enter operator")
+
+if opr == '+' :
+    output = num1 + num2
+elif opr == '-' :
+    output = num1 - num2
+
+print("Your calculation is ", int(output))
+********
