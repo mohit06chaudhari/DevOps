@@ -1,0 +1,11 @@
+Created the First Code in Python
+To check if the Cloud platform is AWS or not
+
+**********
+env=input("Enter the cloud platform:")
+
+if env == "aws" or env == "AWS":
+    print("The Cloud platform is AWS")
+else : 
+    print("Not AWS")
+**********
